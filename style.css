@@ -1,0 +1,155 @@
+body {margin: 0px;}
+
+.header {
+    display: block;
+    position: fixed;
+    background-color: green;
+    align-content: center;
+    height: 105px;
+    width: 100%;
+}
+.line {
+    display:flex;
+    position: fixed; 
+    margin-top: 100px;
+    background-color: red;
+    width: 300%;
+    height: 5px; 
+}
+.conteiner {
+    display:flex;
+    padding: 20px 30px 30px 30px;
+    justify-content:lastbaseline;
+    align-items: center;    
+}
+.text1 {
+    margin:0px;
+}
+.par {
+    color: greenyellow;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.par1 {
+    margin-left: auto;
+    display:flex;
+    color: greenyellow;
+    justify-content:center;
+    padding-left: 90px;
+}
+.sidebar {
+    display: block;
+    width: 10%;
+    height: 1000px;
+    background-color: rgb(27, 190, 22);
+    padding-left: 30px; 
+    padding-right: 30px;
+    position: fixed;
+    margin-top: 105px;
+} 
+.textmenu {
+    position: absolute;
+    margin-top: 0px;
+}
+.deptproduce {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.deptmeat {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+.deptdairy {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+.deptgroceries {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+.sertifikat {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+.aboutus {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+.input {
+    float: right;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+.slide {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+.Produce {
+    margin-top: 130px;
+}
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+@media (min-width: 350px) {
+    .logo {
+        width: 50px; 
+        height: 50px;    
+    }
+    .textmenu {
+        display: none;
+    }
+    .deptproduce {
+        margin-top: 20px;
+    }
+    .deptmeat {
+        margin-top: 15px;
+    }
+    .deptdairy {
+        margin-top: 15px;
+    }
+    .deptgroceries {
+        margin-top: 15px;
+    }
+    .sertifikat {
+        margin-top: 15px;
+    }
+    .Produce {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .slide {
+        margin-left: 130px;
+
+    }
+}
+.aboutus {
+    margin-top: 13px;
+}
+@media (min-width:1200px) {
+    .textmenu {
+        display: block;
+    }
+    .slide {
+        margin-left: 200px;
+    }
